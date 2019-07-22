@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mavenDemo_idea:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mavenDemo_idea_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mavenDemo_idea" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.rabbitmq:amqp-client:3.6.5" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="mavenDemo_idea/web/Web" />
+    </root>
+  </artifact>
+</component>
